@@ -6,6 +6,7 @@
  * Time: 11:13 PM
  */
 $NAME_BOOT = "lib/startbootstrap-clean-blog-gh-pages/";
+$IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -59,16 +60,16 @@ $NAME_BOOT = "lib/startbootstrap-clean-blog-gh-pages/";
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="index.html">Accueil</a>
                 </li>
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="about.html">Team</a>
                 </li>
                 <li>
                     <a href="post.html">Sample Post</a>
                 </li>
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="contact.html">Contactez nous</a>
                 </li>
             </ul>
         </div>
@@ -79,14 +80,14 @@ $NAME_BOOT = "lib/startbootstrap-clean-blog-gh-pages/";
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
-<header class="intro-header" style="background-image: url('img/home-bg.jpg')">
+<header class="intro-header" style="background-image: url('<?php echo $IMAGEURL_1?>')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="site-heading">
-                    <h1>Clean Blog</h1>
+                    <h1>Puggo 360</h1>
                     <hr class="small">
-                    <span class="subheading">A Clean Blog Theme by Start Bootstrap</span>
+                    <span class="subheading">A New Way to See Things</span>
                 </div>
             </div>
         </div>
@@ -109,44 +110,6 @@ $NAME_BOOT = "lib/startbootstrap-clean-blog-gh-pages/";
                 </a>
 
                 <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-                    </h2>
-                </a>
-
-                <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 18, 2014</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        Science has not yet mastered prophecy
-                    </h2>
-
-                    <h3 class="post-subtitle">
-                        We predict too much for the next year and yet far too little for the next ten.
-                    </h3>
-                </a>
-
-                <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on August 24, 2014</p>
-            </div>
-            <hr>
-            <div class="post-preview">
-                <a href="post.html">
-                    <h2 class="post-title">
-                        Failure is not an option
-                    </h2>
-
-                    <h3 class="post-subtitle">
-                        Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-                    </h3>
-                </a>
-
-                <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on July 8, 2014</p>
             </div>
             <hr>
             <!-- Pager -->

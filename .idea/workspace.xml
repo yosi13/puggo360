@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f54bad51-4b16-4152-b21f-fb0b71e01138" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -26,26 +25,39 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.2391305">
-              <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+            <state vertical-scroll-proportion="-0.6159639">
+              <caret line="65" column="34" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="34" />
               <folding>
-                <marker date="1487687927111" expanded="true" signature="191:217" placeholder="..." />
-                <marker date="1487687927111" expanded="true" signature="198:217" placeholder="..." />
-                <marker date="1487687927111" expanded="true" signature="1372:1399" placeholder="..." />
-                <marker date="1487687927111" expanded="true" signature="1372:1572" placeholder="..." />
-                <marker date="1487687927111" expanded="true" signature="1590:1591" placeholder="..." />
+                <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1487689741654" expanded="true" signature="237:263" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="244:263" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="1418:1445" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="1418:1618" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="1636:1637" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3084:3106" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3162:3530" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3188:3519" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3265:3504" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3308:3485" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3587:4199" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3609:4199" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3682:4199" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3721:4199" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3758:4074" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3802:3910" placeholder="..." />
+                <marker date="1487689741654" expanded="true" signature="3958:4053" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.77018636">
+            <state vertical-scroll-proportion="-13.09375">
               <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
               <folding />
             </state>
@@ -71,8 +83,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/info.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -262,11 +274,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
-            <marker date="1487687927111" expanded="true" signature="191:217" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="198:217" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1372:1399" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1372:1572" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1590:1591" placeholder="..." />
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1487689741654" expanded="true" signature="237:263" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="244:263" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1418:1445" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1418:1618" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1636:1637" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3084:3106" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3162:3530" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3188:3519" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3265:3504" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3308:3485" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3587:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3609:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3682:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3721:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3758:4074" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3802:3910" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3958:4053" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -284,11 +309,24 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="2" selection-start-line="7" selection-start-column="2" selection-end-line="7" selection-end-column="2" />
           <folding>
-            <marker date="1487687927111" expanded="true" signature="191:217" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="198:217" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1372:1399" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1372:1572" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1590:1591" placeholder="..." />
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1487689741654" expanded="true" signature="237:263" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="244:263" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1418:1445" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1418:1618" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1636:1637" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3084:3106" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3162:3530" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3188:3519" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3265:3504" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3308:3485" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3587:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3609:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3682:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3721:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3758:4074" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3802:3910" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3958:4053" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -309,6 +347,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.09375">
+          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lib/startbootstrap-clean-blog-gh-pages/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-139.15218">
@@ -319,23 +365,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2391305">
-          <caret line="54" column="63" selection-start-line="54" selection-start-column="63" selection-end-line="54" selection-end-column="63" />
+        <state vertical-scroll-proportion="-0.6159639">
+          <caret line="65" column="34" selection-start-line="65" selection-start-column="29" selection-end-line="65" selection-end-column="34" />
           <folding>
-            <marker date="1487687927111" expanded="true" signature="191:217" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="198:217" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1372:1399" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1372:1572" placeholder="..." />
-            <marker date="1487687927111" expanded="true" signature="1590:1591" placeholder="..." />
+            <element signature="n#style#0;n#header#0;n#body#0;n#html#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1487689741654" expanded="true" signature="237:263" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="244:263" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1418:1445" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1418:1618" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="1636:1637" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3084:3106" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3162:3530" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3188:3519" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3265:3504" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3308:3485" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3587:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3609:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3682:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3721:4199" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3758:4074" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3802:3910" placeholder="..." />
+            <marker date="1487689741654" expanded="true" signature="3958:4053" placeholder="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.77018636">
-          <caret line="49" column="3" selection-start-line="49" selection-start-column="3" selection-end-line="49" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
