@@ -29,6 +29,14 @@
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        #map {
+            width: 100%;
+            height: 400px;
+            background-color: grey;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -37,15 +45,26 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/contact-bg.jpg')">
+    <!-- <header class="intro-header" style="background-image: url('img/contact-bg.jpg')"> -->
+    <header class="intro-header")">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="page-heading">
-                        <h1>Contact Me</h1>
-                        <hr class="small">
-                        <span class="subheading">Have questions? I have answers (maybe).</span>
-                    </div>
+                <div class="col-lg-12 col-md-12">
+                    <div id="map"></div>
+                    <script>
+                        function initMap() {
+                            var position = {lat: 48.62491839, lng: 2.44337226};
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                zoom: 14,
+                                center: position
+                            });
+                            var marker = new google.maps.Marker({
+                                position: position,
+                                map: map
+                            });
+                        }
+                    </script>
+
                 </div>
             </div>
         </div>
@@ -105,5 +124,7 @@
     <?php include_once("footer.php"); ?>
 
 </body>
-
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjHkRGYHFCjsDAecQBkPDKvOMn-7j9uj8&callback=initMap">
+</script>
 </html>

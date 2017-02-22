@@ -6,6 +6,12 @@
  * Time: 12:22 PM
  */
 ?>
+<style>
+    .navbar-custom{
+        position: relative;
+        margin: 0;
+    }
+</style>
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
     <div class="container-fluid" style="background-color: #0085A1">
