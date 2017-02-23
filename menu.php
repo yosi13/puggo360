@@ -11,6 +11,13 @@
         position: relative;
         margin: 0;
     }
+    .navbar-brand img{
+        height: 50px;
+        width: 50px;
+    }
+    .navbar-brand img:hover{
+        cursor: pointer;
+    }
 </style>
 <!-- Navigation -->
 <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -22,8 +29,8 @@
                 <span class="sr-only">Toggle navigation</span>
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="index.php" style="padding: 5px">
-                <img src="images/logo.png" style="height: 50px; width: 50px;">
+            <a class="navbar-brand" href="index.php" style="padding: 5px; ">
+                <img src="images/logo.png">
             </a>
             <a class="navbar-brand" href="index.php">
                 Puggo 360

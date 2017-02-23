@@ -71,9 +71,9 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>L'Equipe</h1>
+                        <h1>Team</h1>
                         <hr class="small">
-                        <span class="subheading">This is what I do.</span>
+                        <span class="subheading">This is what we do.</span>
                     </div>
                 </div>
             </div>
@@ -107,30 +107,14 @@
                     Passionated about artistic creations and technical innovations.
                 </p>
             </div>
-            <div class="col-sm-4">
+            <!--<div class="col-sm-4">
                 <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
                 <h2>Tanguy Bétoux</h2>
                 <p>
                     Graduated from NEOMA Business School and EMLYON Business School.
                     Passionated about travelling and new technologies as well.
                 </p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
-                <h2>Tanguy Bétoux</h2>
-                <p>
-                    Graduated from NEOMA Business School and EMLYON Business School.
-                    Passionated about travelling and new technologies as well.
-                </p>
-            </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
-                <h2>Tanguy Bétoux</h2>
-                <p>
-                    Graduated from NEOMA Business School and EMLYON Business School.
-                    Passionated about travelling and new technologies as well.
-                </p>
-            </div>
+            </div>-->
         </div>
     </div>
 
