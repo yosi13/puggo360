@@ -24,10 +24,10 @@ $IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
     <link href="<?php echo $NAME_BOOT ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
-    <link href="<?php echo $NAME_BOOT ?>css/clean-blog.min.css" rel="stylesheet">
+    <link href="css/clean-blog.min.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
-    <link href="<?php echo $NAME_BOOT ?>vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet'
           type='text/css'>
     <link
@@ -64,7 +64,7 @@ $IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
                 <div class="site-heading">
                     <h1>Puggo 360</h1>
                     <hr class="small">
-                    <span class="subheading">A New Way to See Things</span>
+                    <span class="subheading">You don't watch it, you live it.</span>
                 </div>
             </div>
         </div>
@@ -78,21 +78,20 @@ $IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
             <div class="post-preview">
                 <a href="post.html">
                     <h2 class="post-title">
-                        Man must explore, and this is exploration at its greatest
+                        Puggo 360
                     </h2>
 
                     <h3 class="post-subtitle">
-                        Problems look mighty small from 150 miles up
+                        Puggo is an innovative project focused on virtual reality.
+                        We aim to improve customer experience through innovative 360 video contents.
                     </h3>
                 </a>
-
-                <p class="post-meta">Posted by <a href="#">Start Bootstrap</a> on September 24, 2014</p>
             </div>
             <hr>
             <!-- Pager -->
             <ul class="pager">
                 <li class="next">
-                    <a href="#">Older Posts &rarr;</a>
+                    <a href="contact.php">Contactez nous &rarr;</a>
                 </li>
             </ul>
         </div>

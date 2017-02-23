@@ -22,7 +22,12 @@
                 <span class="sr-only">Toggle navigation</span>
                 Menu <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="index.html">Puggo 360</a>
+            <a class="navbar-brand" href="index.php" style="padding: 5px">
+                <img src="images/logo.png" style="height: 50px; width: 50px;">
+            </a>
+            <a class="navbar-brand" href="index.php">
+                Puggo 360
+            </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
