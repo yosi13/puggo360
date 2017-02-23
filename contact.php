@@ -52,7 +52,7 @@
                 <div class="col-lg-12 col-md-12">
                     <div id="map"></div>
                     <script>
-                        function initMap() {
+                        /*function initMap() {
                             var position = {lat: 48.8499281, lng: 2.30138409999995};
                             var map = new google.maps.Map(document.getElementById('map'), {
                                 zoom: 16,
@@ -62,7 +62,34 @@
                                 position: position,
                                 map: map
                             });
+                        }*/
+                        function initMap() {
+                            var position = new google.maps.LatLng(48.8499281, 2.30138409999995);
+
+                            var map = new google.maps.Map(document.getElementById('map'), {
+                                center: position,
+                                zoom: 16
+                            });
+
+                            var marker = new google.maps.Marker({
+                                position: position,
+                                map: map
+                            });
+
+                            var contentString = '1,3,5, Rue de l\'Abbe Rogger Derry,' +
+                                '<br > 75015, Paris';
+
+                            var infowindow = new google.maps.InfoWindow({
+                                content: contentString
+                            });
+
+                            infowindow.open(map, marker);
+
+                            marker.addListener('click', function() {
+                                infowindow.open(map, marker);
+                            });
                         }
+
                     </script>
 
                 </div>
