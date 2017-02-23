@@ -85,28 +85,51 @@
         <div class="row">
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center photo" src="images/photo.jpg" alt="">
-                <h2>Ingénieur Systèmes Embarqués</h2>
-                <p>Diplômé de Télécom SudParis, très intéressé par les nouvelles technologies, l'IoT et la cyber sécurité</p>
+                <h2>Martin Gonzalez</h2>
+                <p>
+                    IoT engineer, graduated from Telecom SudParis.
+                    Passionated about the IoT and the cyber security.
+                </p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #1</h2>
-                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                <h2>Tanguy Bétoux</h2>
+                <p>
+                    Graduated from NEOMA Business School and EMLYON Business School.
+                    Passionated about travelling and new technologies as well.
+                </p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #1</h2>
-                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                <h2>Olivier Toggenburger </h2>
+                <p>
+                    Telecommunications engineer (Télécom SudParis) and graduated from EMLYON Business School.
+                    Passionated about artistic creations and technical innovations.
+                </p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #1</h2>
-                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                <h2>Tanguy Bétoux</h2>
+                <p>
+                    Graduated from NEOMA Business School and EMLYON Business School.
+                    Passionated about travelling and new technologies as well.
+                </p>
             </div>
             <div class="col-sm-4">
                 <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
-                <h2>Marketing Box #1</h2>
-                <p>These marketing boxes are a great place to put some information. These can contain summaries of what the company does, promotional information, or anything else that is relevant to the company. These will usually be below-the-fold.</p>
+                <h2>Tanguy Bétoux</h2>
+                <p>
+                    Graduated from NEOMA Business School and EMLYON Business School.
+                    Passionated about travelling and new technologies as well.
+                </p>
+            </div>
+            <div class="col-sm-4">
+                <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
+                <h2>Tanguy Bétoux</h2>
+                <p>
+                    Graduated from NEOMA Business School and EMLYON Business School.
+                    Passionated about travelling and new technologies as well.
+                </p>
             </div>
         </div>
     </div>

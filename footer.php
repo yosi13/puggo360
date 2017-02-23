@@ -38,7 +38,7 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; Your Website 2016</p>
+                <p class="copyright text-muted">Copyright &copy; Puggo 360</p>
             </div>
         </div>
     </div>

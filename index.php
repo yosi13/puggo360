@@ -76,7 +76,7 @@ $IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <div class="post-preview">
-                <a href="post.html">
+                <a >
                     <h2 class="post-title">
                         Puggo 360
                     </h2>

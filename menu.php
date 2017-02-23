@@ -34,13 +34,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="background-color: #0085A1">
                 <li>
-                    <a href="index.php">Accueil</a>
+                    <a href="index.php">Home</a>
                 </li>
                 <li>
                     <a href="about.php">Team</a>
                 </li>
                 <li>
-                    <a href="contact.php">Contactez nous</a>
+                    <a href="contact.php">Contact</a>
                 </li>
             </ul>
         </div>
