@@ -5,8 +5,6 @@
  * Date: 2/20/2017
  * Time: 11:13 PM
  */
-$NAME_BOOT = "lib/startbootstrap-clean-blog-gh-pages/";
-$IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -21,7 +19,7 @@ $IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
     <title>Puggo 360</title>
 
     <!-- Bootstrap Core CSS -->
-    <link href="<?php echo $NAME_BOOT ?>vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Theme CSS -->
     <link href="css/clean-blog.min.css" rel="stylesheet">

@@ -103,35 +103,94 @@
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <h2>CONTACT US</h2>
                 <p>Want to get in touch with us? Fill out the form below to send me a message and we will try to get back to you within 24 hours!</p>
+
+                <?php
+                //$errorData=array("nameError", "messageError", "telError", "emailError");
+                $errorData=array();
+                if ($_SERVER["REQUEST_METHOD"] == "POST") {
+                    foreach ($_POST as $a => $b) {
+                        $errorData[$a] = $b;
+                    }
+                    //var_dump($errorData);
+                }
+                ?>
+
                 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
                 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-                <form name="sentMessage" id="contactForm" novalidate>
+                <form method="post" action="traitement.php" name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Name</label>
-                            <input type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name.">
+                            <span>
+                                <?php if(!empty($errorData['nameError'])){
+                                    echo "Invalid name ".$errorData['name'];
+                                }
+                                ?>
+                            </span>
+                            <input name="name" type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name."
+                                   <?php if(!empty($errorData['name'])){
+                                       echo 'value=" '.$errorData['name'] ;
+                                   }else if(!empty($errorData['name'])){
+                                       echo 'value=" '.$errorData['name'];
+                                   }
+                                   ?>
+                                ">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Email Address</label>
-                            <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address.">
+                            <span class="error">
+                                <?php if(!empty($errorData['emailError'])){
+                                    echo "Invalid Email: ".$errorData['emailError'];
+                                }
+                                ?>
+                            </span>
+                            <input name="email" type="text" class="form-control"
+                                   placeholder="Email Address" id="email"
+                                   required data-validation-required-message="Please enter your email address."
+                                   value="
+                                   <?php if(!empty($errorData['emailError'])){
+                                       echo $errorData['emailError'];
+                                   }else if(!empty($errorData['email'])){
+                                       echo $errorData['email'];
+                                   }
+                                   ?>
+                                ">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Phone Number</label>
-                            <input type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <span class="error">
+                                <?php if(!empty($errorData['emailError'])){
+                                    echo "Invalid phone number: ".$errorData['telError'];
+                                }
+                                ?>
+                            </span>
+                            <input name="tel" type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number."
+                                value="
+                                <?php if(!empty($errorData['telError'])){
+                                    echo $errorData['telError'];
+                                }else if(!empty($errorData['tel'])){
+                                    echo $errorData['tel'];
+                                }
+                                ?> ">
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Message</label>
-                            <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <textarea name="message" rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message.">
+                                <?php if(!empty($errorData['message'])){
+                                    echo $errorData['message'] ;
+                                }
+                                ?>
+                            </textarea>
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
