@@ -53,9 +53,9 @@
                     <div id="map"></div>
                     <script>
                         function initMap() {
-                            var position = {lat: 48.62491839, lng: 2.44337226};
+                            var position = {lat: 48.8499281, lng: 2.30138409999995};
                             var map = new google.maps.Map(document.getElementById('map'), {
-                                zoom: 14,
+                                zoom: 16,
                                 center: position
                             });
                             var marker = new google.maps.Marker({

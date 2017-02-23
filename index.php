@@ -41,13 +41,23 @@ $IMAGEURL_1 = $NAME_BOOT . 'img/home-bg.jpg';
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <style>
+        .site-heading h1{
+            color: #0085A1;
+        }
+
+        .subheading{
+            color: #0085A1;
+        }
+    </style>
+
 </head>
 <body>
 <?php include_once("menu.php"); ?>
 
 <!-- Page Header -->
 <!-- Set your background image for this header on the line below. -->
-<header class="intro-header" style="background-image: url('<?php echo $IMAGEURL_1?>')">
+<header class="intro-header" style="background-image: url('images/index_bg.jpeg')">
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
