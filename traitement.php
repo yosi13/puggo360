@@ -40,7 +40,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $email = test_input($_POST['email']);
         // check if e-mail address is well-formed
         if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-            echo "Invalid email format";
             $errorData['emailError']=$_POST['email'];
             $error=true;
         }else{
@@ -55,7 +54,6 @@ function test_input($data) {
     return $data;
 }
 if($error){
-    echo $error;
     ?>
     <form id="myForm" action="contact.php" method="post">
         <?php
@@ -85,7 +83,7 @@ if($error){
     $headers .= 'Content-Type: text/plain; charset="utf-8"' . "\n";
     $headers .= 'Content-Transfer-Encoding: 8bit';
     //Mail to admin
-    mail('zuca_yosi@hotmail.com', 'Example', $mail_content, $headers);
+    mail('zuca_yosi@hotmail.com', 'Contact Puggo 360', $mail_content, $headers);
 
     $mail_content = "Thanks for contacting us, we will answer
 your request in less than 24 hours. \n" + $mail_content;

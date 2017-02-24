@@ -31,21 +31,32 @@
 
     <style>
         .page-heading h1{
-            background-color: #000;
+            /*background-color: #000;*/
             color: #0085A1;
         }
         .page-heading .subheading{
-            background-color: #000;
+            /*background-color: #000;*/
             color: #0085A1;
         }
-        .photo{
-            width: 300px;
-            height: 300px;
+        .photo img{
+            width: 200px;
+            height: 200px;
             border-radius: 50%;
             position: relative;
             overflow: hidden;
+            margin: 0 auto; /*center the image*/
         }
-        .photo img {
+        .photo h2{
+            text-align: center;
+        }
+        .page-heading h1{
+            color: #005C6F;
+        }
+        .intro-header .page-heading .subheading {
+            color: #005C6F;
+            font-weight: bold;
+        }
+        /*.photo img {
             min-width: 100%;
             min-height: 100%;
             width: auto;
@@ -57,7 +68,7 @@
             -moz-transform: translate(-50%, -50%);
             -ms-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-        }
+        }*/
     </style>
 
 </head>
@@ -66,14 +77,14 @@
     <?php include_once("menu.php"); ?>
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('images/about-bg.jpg'); opacity: 0.5;">
+    <header class="intro-header" style="background-image: url('images/team_bg.jpg'); ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>Team</h1>
+                        <h1 style="margin-top: -100px;">Team</h1>
                         <hr class="small">
-                        <span class="subheading">This is what we do.</span>
+                        <span class="subheading" style="margin-bottom: 100px;">This is what we do.</span>
                     </div>
                 </div>
             </div>
@@ -83,24 +94,24 @@
     <!-- Main Content -->
     <div class="container">
         <div class="row">
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center photo" src="images/photo.jpg" alt="">
+            <div class="col-sm-4 photo">
+                <img class="img-circle img-responsive img-center" src="images/photo.jpg" alt="">
                 <h2>Martin Gonzalez</h2>
                 <p>
                     IoT engineer, graduated from Telecom SudParis.
                     Passionated about the IoT and the cyber security.
                 </p>
             </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
+            <div class="col-sm-4 photo">
+                <img class="img-circle img-responsive img-center" src="images/photo2.jpg" alt="">
                 <h2>Tanguy Bétoux</h2>
                 <p>
                     Graduated from NEOMA Business School and EMLYON Business School.
                     Passionated about travelling and new technologies as well.
                 </p>
             </div>
-            <div class="col-sm-4">
-                <img class="img-circle img-responsive img-center photo" src="http://placehold.it/300x300" alt="">
+            <div class="col-sm-4 photo">
+                <img class="img-circle img-responsive img-center" src="images/photo3.jpg" alt="">
                 <h2>Olivier Toggenburger </h2>
                 <p>
                     Telecommunications engineer (Télécom SudParis) and graduated from EMLYON Business School.

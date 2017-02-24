@@ -35,6 +35,11 @@
             height: 400px;
             background-color: grey;
         }
+
+        .error{
+            color: #f00;
+            font-family: inherit;
+        }
     </style>
 
 </head>
@@ -122,7 +127,7 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Name</label>
-                            <span>
+                            <span  class="error">
                                 <?php if(!empty($errorData['nameError'])){
                                     echo "Invalid name ".$errorData['name'];
                                 }
@@ -130,9 +135,9 @@
                             </span>
                             <input name="name" type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name."
                                    <?php if(!empty($errorData['name'])){
-                                       echo 'value=" '.$errorData['name'] ;
+                                       echo 'value="'.$errorData['name'] ;
                                    }else if(!empty($errorData['name'])){
-                                       echo 'value=" '.$errorData['name'];
+                                       echo 'value="'.$errorData['name'];
                                    }
                                    ?>
                                 ">
@@ -142,7 +147,7 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Email Address</label>
-                            <span class="error">
+                            <span  class="error">
                                 <?php if(!empty($errorData['emailError'])){
                                     echo "Invalid Email: ".$errorData['emailError'];
                                 }
@@ -151,11 +156,10 @@
                             <input name="email" type="text" class="form-control"
                                    placeholder="Email Address" id="email"
                                    required data-validation-required-message="Please enter your email address."
-                                   value="
                                    <?php if(!empty($errorData['emailError'])){
-                                       echo $errorData['emailError'];
+                                       echo 'value="'.$errorData['emailError'] ;
                                    }else if(!empty($errorData['email'])){
-                                       echo $errorData['email'];
+                                       echo 'value="'.$errorData['email'] ;
                                    }
                                    ?>
                                 ">
@@ -172,11 +176,10 @@
                                 ?>
                             </span>
                             <input name="tel" type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number."
-                                value="
                                 <?php if(!empty($errorData['telError'])){
-                                    echo $errorData['telError'];
+                                    echo 'value="'.$errorData['telError'] ;
                                 }else if(!empty($errorData['tel'])){
-                                    echo $errorData['tel'];
+                                    echo 'value="'.$errorData['tel'] ;
                                 }
                                 ?> ">
                             <p class="help-block text-danger"></p>
@@ -185,12 +188,19 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <label>Message</label>
-                            <textarea name="message" rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message.">
-                                <?php if(!empty($errorData['message'])){
+                            <textarea name="message" rows="5" class="form-control" placeholder="Message" id="message" required
+                                      data-validation-required-message="Please enter a message"><?php if(!empty($errorData['messageError'])){
+                                    echo $errorData['messageError'] ;
+                                }elseif (!empty($errorData['message'])){
                                     echo $errorData['message'] ;
                                 }
-                                ?>
-                            </textarea>
+                                ?></textarea>
+                            <!--<textarea name="message" rows="5"
+                                      class="form-control"
+                                      placeholder="Message"
+                                      id="message" required
+                                      data-validation-required-message="Please enter a message.">
+                            </textarea>-->
                             <p class="help-block text-danger"></p>
                         </div>
                     </div>
