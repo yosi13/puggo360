@@ -32,11 +32,11 @@
     <style>
         .page-heading h1{
             /*background-color: #000;*/
-            color: #0085A1;
+            color: #FFFFFF;
         }
         .page-heading .subheading{
             /*background-color: #000;*/
-            color: #0085A1;
+            color: #FFFFFF;
         }
         .photo img{
             width: 200px;
@@ -50,10 +50,10 @@
             text-align: center;
         }
         .page-heading h1{
-            color: #005C6F;
+            color: #FFFFFF;
         }
         .intro-header .page-heading .subheading {
-            color: #005C6F;
+            color: #FFFFFF;
             font-weight: bold;
         }
         /*.photo img {
@@ -77,7 +77,7 @@
     <?php include_once("menu.php"); ?>
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('images/team_bg.jpg'); ">
+    <header class="intro-header" style="background-image: url('images/team_bg.jpeg'); ">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -96,26 +96,26 @@
         <div class="row">
             <div class="col-sm-4 photo">
                 <img class="img-circle img-responsive img-center" src="images/photo.jpg" alt="">
-                <h2>Martin Gonzalez</h2>
+                <h2>Martin</h2>
                 <p>
                     IoT engineer, graduated from Telecom SudParis.
-                    Passionated about the IoT and the cyber security.
+                    Passionate about the IoT and cyber security.
                 </p>
             </div>
             <div class="col-sm-4 photo">
                 <img class="img-circle img-responsive img-center" src="images/photo2.jpg" alt="">
-                <h2>Tanguy Bétoux</h2>
+                <h2>Tanguy</h2>
                 <p>
                     Graduated from NEOMA Business School and EMLYON Business School.
-                    Passionated about travelling and new technologies as well.
+                    Passionate about travelling and new technologies.
                 </p>
             </div>
             <div class="col-sm-4 photo">
                 <img class="img-circle img-responsive img-center" src="images/photo3.jpg" alt="">
-                <h2>Olivier Toggenburger </h2>
+                <h2>Olivier</h2>
                 <p>
-                    Telecommunications engineer (Télécom SudParis) and graduated from EMLYON Business School.
-                    Passionated about artistic creations and technical innovations.
+                    Graduated from Telecom SudParis and EMLYON Business School.
+                    Passionate about artistic creations and technical innovations.
                 </p>
             </div>
             <!--<div class="col-sm-4">
@@ -123,7 +123,7 @@
                 <h2>Tanguy Bétoux</h2>
                 <p>
                     Graduated from NEOMA Business School and EMLYON Business School.
-                    Passionated about travelling and new technologies as well.
+                    Passionate about travelling and new technologies as well.
                 </p>
             </div>-->
         </div>

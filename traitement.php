@@ -78,12 +78,12 @@ if($error){
     echo $mail_content;
     //bool mail ( string $to , string $subject , string $message [, string $additional_headers [, string $additional_parameters ]] )
 
-    $headers = 'From: puggo360@gmail.com' . "\n";
-    $headers .= 'Reply-To: puggo360@gmail.com' . "\n";
+    $headers = 'From: contact@puggo360.com' . "\n";
+    $headers .= 'Reply-To: contact@puggo360.com' . "\n";
     $headers .= 'Content-Type: text/plain; charset="utf-8"' . "\n";
     $headers .= 'Content-Transfer-Encoding: 8bit';
     //Mail to admin
-    mail('zuca_yosi@hotmail.com', 'Contact Puggo 360', $mail_content, $headers);
+    mail('contact@puggo360.com', 'Contact Puggo 360', $mail_content, $headers);
 
     $mail_content = "Thanks for contacting us, we will answer
 your request in less than 24 hours. \n" + $mail_content;

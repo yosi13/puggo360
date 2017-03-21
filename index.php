@@ -62,7 +62,7 @@
                 <div class="site-heading">
                     <h1>Puggo 360</h1>
                     <hr class="small">
-                    <span class="subheading">You don't watch it, you live it.</span>
+                    <span class="subheading">Don't watch it, live it..</span>
                 </div>
             </div>
         </div>
