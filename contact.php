@@ -123,6 +123,7 @@
                 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
                 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+                <?php if(!($_POST['succes']=="yes")){ ?>
                 <form method="post" action="traitement.php" name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
@@ -212,6 +213,18 @@
                         </div>
                     </div>
                 </form>
+                <?php
+                }else{?>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Email sent</h3>
+                        </div>
+                        <div class="panel-body">
+                            Thank you for contacting us. We sent you a confirmation email. We will contact you in less than 24 hours.
+                        </div>
+                    </div>
+                <?php }
+                ?>
             </div>
         </div>
     </div>

@@ -75,7 +75,7 @@ if($error){
     message: " . $validData['message'] . "\n";
     //Line can have online 70 characters
     $mail_content = wordwrap($mail_content, 70, "\r\n");
-    echo $mail_content;
+    //echo $mail_content;
     //bool mail ( string $to , string $subject , string $message [, string $additional_headers [, string $additional_parameters ]] )
 
     $headers = 'From: contact@puggo360.com' . "\n";
@@ -83,12 +83,18 @@ if($error){
     $headers .= 'Content-Type: text/plain; charset="utf-8"' . "\n";
     $headers .= 'Content-Transfer-Encoding: 8bit';
     //Mail to admin
-    mail('contact@puggo360.com', 'Contact Puggo 360', $mail_content, $headers);
+    $boolMail = mail('contact@puggo360.com', 'Contact Puggo 360', $mail_content, $headers);
 
     $mail_content = "Thanks for contacting us, we will answer
 your request in less than 24 hours. \n" + $mail_content;
 //Mail to the visitor
-    mail($email, 'Contact Puggo 360', $mail_content, $headers);
+    $boolMail2 = mail($email, 'Contact Puggo 360', $mail_content, $headers);
+
+    if($boolMail & $boolMail2){
+        echo '<form id="myForm" action="contact.php" method="post">';
+        echo '<input type="hidden" name="succes" value="yes">';
+        echo '</form>';
+    }
 }
 ?>
 <script type="text/javascript">
