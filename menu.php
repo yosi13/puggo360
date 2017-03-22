@@ -44,6 +44,9 @@
                     <a href="index.php" style="color:#0085A1">Home</a>
                 </li>
                 <li>
+                    <a href="service.php" style="color:#0085A1">Service</a>
+                </li>
+                <li>
                     <a href="about.php" style="color:#0085A1">Team</a>
                 </li>
                 <li>

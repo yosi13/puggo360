@@ -119,16 +119,17 @@
                 <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
                 <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
                 <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
-                <?php if(($_POST['succes']=="yes")){ ?>
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <h3 class="panel-title">Email sent</h3>
-                    </div>
-                    <div class="panel-body">
-                        Thank you for contacting us. We sent you a confirmation email. We will contact you in less than 24 hours.
-                    </div>
-                </div>
-            <?php } else{ ?>
+                <?php if((!empty($_POST['succes']) )){
+                    if($_POST['succes']=="yes"){ ?>
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h3 class="panel-title">Email sent</h3>
+                            </div>
+                            <div class="panel-body">
+                                Thank you for contacting us. We sent you a confirmation email. We will contact you in less than 24 hours.
+                            </div>
+                        </div>
+            <?php } } else{ ?>
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <h2>CONTACT US</h2>
                     <p>Want to get in touch with us? Fill out the form below to send me a message and we will try to get back to you within 24 hours!</p>

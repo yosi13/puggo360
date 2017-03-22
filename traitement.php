@@ -90,7 +90,7 @@ your request in less than 24 hours. \n" + $mail_content;
 //Mail to the visitor
     $boolMail2 = mail($email, 'Contact Puggo 360', $mail_content, $headers);
 
-    if($boolMail & $boolMail2){
+    if($boolMail && $boolMail2){
         echo '<form id="myForm" action="contact.php" method="post">';
         echo '<input type="hidden" name="succes" value="yes">';
         echo '</form>';
