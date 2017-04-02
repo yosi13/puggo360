@@ -80,8 +80,10 @@
                     </h2>
 
                     <h3 class="post-subtitle">
-                        Puggo is an innovative project focused on virtual reality.
-                        We aim to improve customer experience through innovative 360 video contents.
+                        <!--Puggo is an innovative project focused on virtual reality.
+                        We aim to improve customer experience through innovative 360 video contents.-->
+                        Puggo est un projet innovateur centré sur la réalité virtuelle.
+                        Nous envisageons d'améliorer l'expérience client à travers de contenus vidéo 360 fantastiques.
                     </h3>
                 </a>
             </div>

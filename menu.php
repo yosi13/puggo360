@@ -26,7 +26,7 @@
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1">
-                <span class="sr-only">Toggle navigation</span>
+                <span class="sr-only">Faites glisser pour voir plus de contenu</span>
                 Menu <i class="fa fa-bars"></i>
             </button>
             <a class="navbar-brand" href="index.php" style="padding: 5px; ">
@@ -41,13 +41,13 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right" style="background-color: #FFFFFF">
                 <li>
-                    <a href="index.php" style="color:#0085A1">Home</a>
+                    <a href="index.php" style="color:#0085A1">Accueil</a>
                 </li>
                 <li>
                     <a href="service.php" style="color:#0085A1">Service</a>
                 </li>
                 <li>
-                    <a href="about.php" style="color:#0085A1">Team</a>
+                    <a href="about.php" style="color:#0085A1">&Eacute;quipe</a>
                 </li>
                 <li>
                     <a href="contact.php" style="color:#0085A1">Contact</a>

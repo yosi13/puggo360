@@ -82,7 +82,7 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1 style="margin-top: -100px;">Team</h1>
+                        <h1 style="margin-top: -100px;">Equipe</h1>
                         <hr class="small">
                         <span class="subheading" style="margin-bottom: 100px;">This is what we do.</span>
                     </div>
@@ -97,25 +97,33 @@
             <div class="col-sm-4 photo">
                 <img class="img-circle img-responsive img-center" src="images/photo.jpg" alt="">
                 <h2>Martin</h2>
-                <p>
+                <!--<p>
                     IoT engineer, graduated from Telecom SudParis.
                     Passionate about the IoT and cyber security.
+                </p>-->
+                <p>
+                    Ingénieur IoT, diplômé de Télécom SudParis.
+                    Passionné par les objets connectés.
                 </p>
             </div>
             <div class="col-sm-4 photo">
                 <img class="img-circle img-responsive img-center" src="images/photo2.jpg" alt="">
                 <h2>Tanguy</h2>
                 <p>
-                    Graduated from NEOMA Business School and EMLYON Business School.
-                    Passionate about travelling and new technologies.
+                    <!--Graduated from NEOMA Business School and EMLYON Business School.
+                    Passionate about travelling and new technologies.-->
+                    Diplômé de l'EMLYON et NEOMA Business School.
+                    Passionné par les nouvelles technologies et les voyages.
                 </p>
             </div>
             <div class="col-sm-4 photo">
                 <img class="img-circle img-responsive img-center" src="images/photo3.jpg" alt="">
                 <h2>Olivier</h2>
                 <p>
-                    Graduated from Telecom SudParis and EMLYON Business School.
-                    Passionate about artistic creations and technical innovations.
+                    <!--Graduated from Telecom SudParis and EMLYON Business School.
+                    Passionate about artistic creations and technical innovations.-->
+                    Diplômé de Telecom SudParis et de EMLYON.
+                    Passionné par les les créations artistiques et les innovations techniques.
                 </p>
             </div>
             <!--<div class="col-sm-4">

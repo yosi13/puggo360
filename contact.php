@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Clean Blog - Contact</title>
+    <title>Contact</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -126,17 +126,19 @@
                                 <h3 class="panel-title">Email sent</h3>
                             </div>
                             <div class="panel-body">
-                                Thank you for contacting us. We sent you a confirmation email. We will contact you in less than 24 hours.
+                                <!--Thank you for contacting us. We sent you a confirmation email. We will contact you in less than 24 hours.-->
+                                Merci de nous avoir contactés. Vous allez recevoir un mail de confirmation. Nous vous contacterons en moins de 24 heurs.
                             </div>
                         </div>
             <?php } } else{ ?>
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <h2>CONTACT US</h2>
-                    <p>Want to get in touch with us? Fill out the form below to send me a message and we will try to get back to you within 24 hours!</p>
+<!--                    <h2>CONTACT US</h2>-->
+                    <!--<p>Want to get in touch with us? Fill out the form below to send me a message and we will try to get back to you within 24 hours!</p>-->
+                    <p>Voulez-vous nous contacter? Remplissez le formulaire suivant et nous vous contacterons en moins de 24 heures</p>
                 <form method="post" action="traitement.php" name="sentMessage" id="contactForm" novalidate>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Name</label>
+                            <label>Nom</label>
                             <span  class="error">
                                 <?php if(!empty($errorData['nameError'])){
                                     echo "Invalid name ".$errorData['name'];
@@ -156,7 +158,7 @@
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Email Address</label>
+                            <label>Email</label>
                             <span  class="error">
                                 <?php if(!empty($errorData['emailError'])){
                                     echo "Invalid Email: ".$errorData['emailError'];
@@ -178,7 +180,7 @@
                     </div>
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
-                            <label>Phone Number</label>
+                            <label>Numéro de Telephone</label>
                             <span class="error">
                                 <?php if(!empty($errorData['emailError'])){
                                     echo "Invalid phone number: ".$errorData['telError'];

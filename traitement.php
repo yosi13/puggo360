@@ -85,8 +85,10 @@ if($error){
     //Mail to admin
     $boolMail = mail('contact@puggo360.com', 'Contact Puggo 360', $mail_content, $headers);
 
-    $mail_content = "Thanks for contacting us, we will answer
-your request in less than 24 hours. \n" + $mail_content;
+    $mail_content = "Merci de nous avoir contacté. Nous répondrons à votre
+    réquête en moins de 24 heurs \n" + $mail_content;
+    /*$mail_content = "Thanks for contacting us, we will answer
+your request in less than 24 hours. \n" + $mail_content;*/
 //Mail to the visitor
     $boolMail2 = mail($email, 'Contact Puggo 360', $mail_content, $headers);
 
