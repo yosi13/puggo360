@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Puggo 360 - L'Equipe</title>
+    <title>Puggo 360 - L'&Eacute;quipe</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -102,8 +102,8 @@
                     Passionate about the IoT and cyber security.
                 </p>-->
                 <p>
-                    Ingénieur IoT, diplômé de Télécom SudParis.
-                    Passionné par les objets connectés.
+                    Ing&eacute;nieur IoT, dipl&ocirc;m&eacute; de T&eacute;l&eacute;com SudParis.
+                    Passionn&eacute; par les objets connect&eacute;s.
                 </p>
             </div>
             <div class="col-sm-4 photo">
@@ -112,8 +112,8 @@
                 <p>
                     <!--Graduated from NEOMA Business School and EMLYON Business School.
                     Passionate about travelling and new technologies.-->
-                    Diplômé de l'EMLYON et NEOMA Business School.
-                    Passionné par les nouvelles technologies et les voyages.
+                    Dipl&ocirc;m&eacute; de l'EMLYON et NEOMA Business School.
+                    Passionn&eacute; par les nouvelles technologies et les voyages.
                 </p>
             </div>
             <div class="col-sm-4 photo">
@@ -122,8 +122,8 @@
                 <p>
                     <!--Graduated from Telecom SudParis and EMLYON Business School.
                     Passionate about artistic creations and technical innovations.-->
-                    Diplômé de Telecom SudParis et de EMLYON.
-                    Passionné par les les créations artistiques et les innovations techniques.
+                    Dipl&ocirc;m&eacute; de T&eacute;l&eacute;com SudParis et de EMLYON.
+                    Passionn&eacute; par les cr&eacute;ations artistiques et les innovations techniques.
                 </p>
             </div>
             <!--<div class="col-sm-4">

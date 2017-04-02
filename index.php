@@ -82,8 +82,8 @@
                     <h3 class="post-subtitle">
                         <!--Puggo is an innovative project focused on virtual reality.
                         We aim to improve customer experience through innovative 360 video contents.-->
-                        Puggo est un projet innovateur centré sur la réalité virtuelle.
-                        Nous envisageons d'améliorer l'expérience client à travers de contenus vidéo 360 fantastiques.
+                        Puggo est un projet innovateur centr&eacute; sur la r&eacute;alit&eacute; virtuelle.
+                        Nous envisag&eacute;ons d'am&eacute;liorer l'exp&eacute;rience client &agrave; travers de contenus vid&eacute;o 360 fantastiques.
                     </h3>
                 </a>
             </div>
