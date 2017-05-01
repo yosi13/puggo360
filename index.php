@@ -62,7 +62,7 @@
                 <div class="site-heading">
                     <h1>Puggo 360</h1>
                     <hr class="small">
-                    <span class="subheading">Don't watch it, live it..</span>
+                    <span class="subheading">Don't watch it, live it</span>
                 </div>
             </div>
         </div>
@@ -82,8 +82,8 @@
                     <h3 class="post-subtitle">
                         <!--Puggo is an innovative project focused on virtual reality.
                         We aim to improve customer experience through innovative 360 video contents.-->
-                        Puggo est un projet innovateur centr&eacute; sur la r&eacute;alit&eacute; virtuelle.
-                        Nous envisag&eacute;ons d'am&eacute;liorer l'exp&eacute;rience client &agrave; travers de contenus vid&eacute;o 360 fantastiques.
+                        Puggo est un projet innovant dans le domaine de la r&eacute;alit&eacute; virtuelle.
+                        Nous vous proposons d'am&eacute;liorer votre exp&eacute;rience client &agrave; travers des contenus vid&eacute;os &agrave; 360&deg;.
                     </h3>
                 </a>
             </div>

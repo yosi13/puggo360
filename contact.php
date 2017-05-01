@@ -1,8 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -145,7 +143,7 @@
                                 }
                                 ?>
                             </span>
-                            <input name="name" type="text" class="form-control" placeholder="Name" id="name" required data-validation-required-message="Please enter your name."
+                            <input name="name" type="text" class="form-control" placeholder="Nom" id="name" required data-validation-required-message="Please enter your name."
                                    <?php if(!empty($errorData['name'])){
                                        echo 'value="'.$errorData['name'] ;
                                    }else if(!empty($errorData['name'])){
@@ -166,7 +164,7 @@
                                 ?>
                             </span>
                             <input name="email" type="text" class="form-control"
-                                   placeholder="Email Address" id="email"
+                                   placeholder="Email" id="email"
                                    required data-validation-required-message="Please enter your email address."
                                    <?php if(!empty($errorData['emailError'])){
                                        echo 'value="'.$errorData['emailError'] ;
@@ -187,7 +185,7 @@
                                 }
                                 ?>
                             </span>
-                            <input name="tel" type="tel" class="form-control" placeholder="Phone Number" id="phone" required data-validation-required-message="Please enter your phone number."
+                            <input name="tel" type="tel" class="form-control" placeholder="T&eacute;l&eacute;phone" id="phone" required data-validation-required-message="Please enter your phone number."
                                 <?php if(!empty($errorData['telError'])){
                                     echo 'value="'.$errorData['telError'] ;
                                 }else if(!empty($errorData['tel'])){

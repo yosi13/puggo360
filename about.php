@@ -84,7 +84,7 @@
                     <div class="page-heading">
                         <h1 style="margin-top: -100px;">Equipe</h1>
                         <hr class="small">
-                        <span class="subheading" style="margin-bottom: 100px;">This is what we do.</span>
+                        <span class="subheading" style="margin-bottom: 100px;">Qui sommes-nous?</span>
                     </div>
                 </div>
             </div>
